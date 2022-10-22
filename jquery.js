@@ -67,7 +67,7 @@ $(function () {
     function addHearts() {
         $("#trialsLeft").empty();
         for (i = 0; i < trialsLeft; i++) {
-            $("#trialsLeft").append('<img src="images/Red-Heart.webp" class="life">');
+            $("#trialsLeft").append('<img src="Red-Heart.webp" class="life">');
         }
     }
 
@@ -122,7 +122,7 @@ $(function () {
     // generate a random fruit
 
     function chooseFruit() {
-        $("#fruit1").attr('src', 'images/' + fruits[Math.round(8 * Math.random())] + '.jpg');
+        $("#fruit1").attr('src',+ fruits[Math.round(8 * Math.random())] + '.jpg');
     }
 
     //Stop dropping fruits
